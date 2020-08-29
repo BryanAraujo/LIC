@@ -1,0 +1,28 @@
+.row{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+div[class^="col-"]{
+    border: 1px solid #AAA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background:white;
+}
+body {
+    background-color: #B0BEC5;
+}
+@media (min-width: 768px){
+    body{
+        background-color: #FFB74D;
+    }
+}
+@media (min-width: 992px){
+    body{
+        background-color: #81C784;
+    }
+}
+@media(min-width: 1200px){
+    body{
+        background-color: #5C6BC0;
+    }
+}
