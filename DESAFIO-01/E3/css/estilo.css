@@ -1,0 +1,79 @@
+.cabeza { 
+    background-color: #15ff00;
+    border: black 1px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+}
+.cuadro1{
+    background-color: red;
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: auto;
+}
+.cuadro2{
+    background-color: red;
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: auto;
+}
+.cuadro3{
+    background-color: red;
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: auto;
+}
+.footer1{
+    background-color: yellow;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.footer2{
+    background-color: yellow;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+@media screen and (max-width: 480px){
+    .cabeza{
+        background-color: #f3a87d;
+        text-align: center;
+    }
+    .cuadro1{
+        text-align: left;
+    }
+    .cuadro2{
+        background-color: #00ffff;
+    }
+    .cuadro3{
+        text-align: right;
+    }
+    .footer1,.footer2{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    .footer1,.footer2{
+        text-align: center;
+    }
+    .cuadro1{
+        text-align: left;
+    }
+    .cuadro2{
+        text-align: right;
+    }
+    .cuadro3{
+        background-color: #15ff00;
+    }
+    .cabeza{
+        background-color: #00ffff;
+    }
+}
