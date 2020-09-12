@@ -1,0 +1,53 @@
+div{
+    width: 96.5%;
+    padding: 20px;
+    border: 4px solid black;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+header{
+    width: 96.5%;
+    padding: 20px;
+    border: 4px solid green;
+    border-radius: 15px;
+    float: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: top;
+    font-size:2rem;
+}
+
+h3{
+    text-align:center;
+    font-size:2rem;
+}
+navigation{
+    width: 45%;
+    height: 50%;
+    padding: 20px;
+    border: 4px solid red;
+    border-radius: 15px;
+    float: left;
+}
+
+article{
+    width: 51%;
+    padding: auto;
+    border: 4px solid blue;
+    border-radius: 15px;
+    float: left;
+}
+
+footer{
+    width: 96.5%;
+    padding: 20px;
+    border: 4px solid brown;
+    border-radius: 15px;
+    float: left;
+}
