@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/discusion2.css"/>
+    <title>Discusion 2</title>
+</head>
+<body>
+    <center>
+    <div class="contenido">
+        <div class="hijo">
+            <div>
+                <form>
+                    <label for="producto">Producto</label>
+                    <select id="pro" name="producto">
+                      <option value="Leche">Leche</option>
+                      <option value="Cereal">Cereal</option>
+                      <option value="Papel">Papel</option>
+                      <option value="Pimienta">Pimienta</option>
+                      <option value="Sal">Sal</option>
+                      <option value="Carbon">Carbon</option>
+                      <option value="Pan">Pan</option>
+                      <option value="Carne">Carne</option>
+                    </select>              
+                  <label for="precio">Precio</label>
+                  <input type="text" id="pre" name="precio" placeholder="Digite el precio">
+                  <button type="submit" class="button button1" id="btn_guardar" onclick="guardar()">Comprar</button>  
+                </form>
+                <table>
+                    <thead>
+                        <tr>    
+                            <th>Producto</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                        </tr>
+                  </thead>
+                  <tbody id="registro">
+
+                  </tbody>
+                </table>
+                
+        </div>
+    </div>
+    </center>
+    <script src="js/discusion2.js"></script>
+</body>
+</html>
