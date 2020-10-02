@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculadoraestilo.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <br>
+    <center><h1>Calculadora Basica</h1><h2>CASIO FX-890i</h2></center>
+    <div class="calculadora">
+        <div class="pantalla">
+            <div id="resultado"></div>
+
+        </div>
+        <div class="teclas">
+            <div class="numeros">
+                <div>
+                    <button id="n1" value="1" onclick="numero('1')">1</button>
+                    <button id="n2" value="2" onclick="numero('2')">2</button>
+                    <button id="n3" value="3" onclick="numero('3')">3</button>
+                </div>
+                <div>
+                    <button id="n4" value="4" onclick="numero('4')">4</button>
+                    <button id="n5" value="5" onclick="numero('5')">5</button>
+                    <button id="n6" value="6" onclick="numero('6')">6</button>
+                </div>
+                <div>
+                    <button id="n7" value="7" onclick="numero('7')">7</button>
+                    <button id="n8" value="8" onclick="numero('8')">8</button>
+                    <button id="n9" value="9" onclick="numero('9')">9</button>
+                </div>
+                <div>
+                    <button id="n0" value="0" onclick="numero('0')">0</button>
+                </div>
+
+            </div>
+            <div class="op">
+                <div>
+                    <button id="borrar1" value="Retr" onclick="retro()">DEL</button>
+                    <button id="borrarP" value="CE" onclick="borradoParcial()">CE</button>
+                    <button id="borrarT" value="C" onclick="borradoTotal()">C</button>
+                </div>
+                <div>
+                    <button id="suma" value="+" onclick="operar('+')">+</button>
+                    <button id="resta" value="-" onclick="operar('-')">-</button>
+                    <button id="multiplicacion" value="*" onclick="operar('*')">x</button>
+                </div>
+                <div>
+                    <button id="division" value="/" onclick="operar('/')">/</button>
+                    <button id="residuo" value="%" onclick="porcent()">%</button>
+                    <button id="inversanumero" value="1/x" onclick="inve()">1/x</button>
+                </div>
+                <div>
+                    <button id="cuadrado" value="elevar" onclick="elevar()">x²</button>
+                    <button id="raiz" value="Raiz" onclick="raizc()">√</button>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="sr">
+            <button id="igual" value="=" onclick="igualar()">=</button>
+        </div>
+        <script src="js/calculadora.js"></script>
+</body>
+
+</html>
