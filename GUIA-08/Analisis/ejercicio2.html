@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Registro</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/ejercicio2.css" />
+    <script type="text/javascript" src="js/ejercicio2.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Ingresa los siguientes datos</h1>
+
+        <p>
+            Ingresa los siguientes datos para completar tu registro.
+        </p>
+        <form name="frmmat" id="pais">
+            <!-- <form name="register" action=""> -->
+                <div id="cuerpo">
+            <input type="text" name="txtname" id="txtname" required="required" placeholder="Su nombre" />
+
+            <input type="text" name="txtlastname" id="txtlastname" required="required" placeholder="Su apellido" />
+        </div>
+        <div id="cuerpo">
+            <input type="number" name="txtage" id="txtage" required="required" placeholder="Su edad" />
+            <input type="email" name="txtemail" id="txtemail" required="required" placeholder="Correo Electronico" />
+            
+        </div>
+        <div id="cuerpo">
+            <label for="fecha" style="color: wheat;">Fecha de Nacimiento</label><br>
+       <input type="date" name="txtdate" id="txtdate" required="required" placeholder="Fecha" class="field" />
+        </div>
+        <div id="cuerpo">
+            <input type="text" name="txtpais" id="txtpais" required="required" placeholder="Pais" />
+            <input type="text" name="txtdire" id="txtdire" required="required" placeholder="Dirección" />
+        </div>
+        
+            <div class="accounttype">
+                <p>Género:</p>
+                <input type="radio" value="Masculino" id="radioOne" name="chkgender" checked="checked" />
+                <label for="radioOne" class="radio">Masculino</label>
+                <input type="radio" value="Femenino" id="radioTwo" name="chkgender" />
+                <label for="radioTwo" class="radio">Femenino</label>
+            </div>
+
+            <div class="btn">
+                <input type="button" name="btnSend" id="btnSend" value="Registrar" />
+            </div>
+        </form>
+
+
+
+    </div>

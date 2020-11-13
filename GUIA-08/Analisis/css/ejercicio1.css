@@ -1,0 +1,35 @@
+body{
+    background-color: darkslategray;
+}
+
+#titulo{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 16px;
+}
+.app{
+   text-align: center;
+}
+input[type=text], select {
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-flex;
+        border: 1px solid #ccc;
+        background-color: white;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+input[type=button]{
+ width: 20%;
+ margin: auto;
+ color: black;
+}
+#respuesta{
+    padding: 25px 25px 25px 25px;
+    color: white;
+    font-size: 16px;
+}

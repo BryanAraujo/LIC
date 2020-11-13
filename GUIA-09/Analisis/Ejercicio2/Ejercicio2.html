@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 style="color: seashell; text-align: center; text-shadow: 1px 1px 0px #333,2px 2px 0px #333, 3px 3px 0px #333,4px 4px 0px #333, 5px 5px 0px #333,6px 6px 0px #333,7px 7px 0px #333, 8px 8px 0px #333,9px 9px 0px #333, 11px 11px 10px #000;">Ingrese los datos.</h1>
+        <form>
+            <div class="row">
+                <div class="col-lg-12 col-md-6 col-sm-3s">
+                    <label for="ex1">Eje X:</label>
+                    <input class="form-control" id="ex1" type="text">
+                    <label for="ex2">Eje Y:</label>
+                    <input class="form-control" id="ex2" type="number" >
+                </div>
+            </div>
+            <div id="container" style="padding-top: 20px;">
+                <button type="button" class="btn btn-primary btn-sm btn-block" id="btn" onclick="llenarArrays()">Obtener datos</button>
+                <button type="button" class="btn btn-primary btn-sm btn-block" id="btn" onclick="creargrafica()">Crear Grafica</button>
+            </div>
+            <div id="Graficas">
+                <canvas id="Migrafica" width="400" height="300"></canvas>
+            </div>
+        </form>
+    </div>
+    <script src="js/Ejercicio2.js"></script>
+</body>
+</html>
